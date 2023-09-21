@@ -1,0 +1,31 @@
+<ExcelReaderWidget>:
+    orientation: 'vertical'
+
+    Label:
+        text: 'Enter Excel File Path:'
+    TextInput:
+        id: file_path_input
+
+    Label:
+        text: 'Enter Row Number:'
+    TextInput:
+        id: row_number_input
+
+    Button:
+        text: 'Read Excel'
+        on_press: root.read_excel()
+
+    Label:
+        text: 'Col2 Value:'
+    TextInput:
+        id: col2_output
+
+    Label:
+        text: 'Col3 Value:'
+    TextInput:
+        id: col3_output
+
+    Label:
+        text: 'Col4 Value:'
+    TextInput:
+        id: col4_output
